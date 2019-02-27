@@ -101,9 +101,7 @@ class Crawler():
 		path_ext = path.split('.')[-1].split('#')[0].split('?')[0].lower()
 		if path.startswith('#') or path.startswith('mailto:') or path.startswith('tel') or path in self.crawled or self.target_domain!=path_url_domain or path_ext in['js','css','php','pdf'] or '#' in path or path_ext in ['jpg','jpeg','png','webp','gif','ico'] or 'tel:' in path or 'mail:' in path or '/javascript' in path:
 			return False
-		if '?cat=' not in path:		# For express.google.com test
-			return False
-		return True
+
 
 	def print_crawled_list(self):
 		print(self.crawled)
