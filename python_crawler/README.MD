@@ -6,7 +6,6 @@
 
 
 <h3>Start Proces</h3>
-<p>Provide sample website name under the home_page varible in the start script. Also provide maximum depth level of crawling</p>
 <pre>
 <code>python start.py --website=https://somethings.com --max_depth=3</code>
 </pre>
