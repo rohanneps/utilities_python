@@ -1,0 +1,6 @@
+#selenium==2.53.6
+selenium==3.141.0
+#chromedriver-installer==0.0.6
+chromedriver-install==1.0.3
+boto3
+bs4
