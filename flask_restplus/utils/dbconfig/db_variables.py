@@ -1,0 +1,5 @@
+database_type = 'mysql'
+username = 'root'
+password = 'rohan1234'
+host = 'localhost'
+database = 'attribute_refinement'
