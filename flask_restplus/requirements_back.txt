@@ -18,7 +18,7 @@ idna==2.6
 image==1.5.20
 imutils==0.4.6
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 jsonschema==2.6.0
 Keras==2.1.5
 kiwisolver==1.0.1
