@@ -28,7 +28,7 @@ MarkupSafe==1.0
 matplotlib==2.2.2
 mysqlclient==1.3.12
 nltk==3.2.5
-numpy==1.14.2
+numpy==1.22.0
 opencv-python==3.4.0.12
 pandas==0.22.0
 pandas-profiling==1.4.0
